@@ -35,6 +35,32 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 15px;
+}
+nav a {
+  color: #272142;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
+.logo {
+  max-height: 40px;
+}
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -75,7 +101,7 @@ p {
   padding: 120px 30px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 .content h1 {
   font-size: 55px;
@@ -103,15 +129,25 @@ p {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
-    line-height: 2;
+    font-size: 38px;
+    line-height: 1;
+    margin: 15px 0;
   }
   h2 {
-    font-size: 44px;
+    font-size: 38px;
+  }
+  nav a {
+    display: inline;
+    justify-content: center;
+    font-size: 14px;
   }
   .hero {
     padding: 80px 20px;
   }
+  .hero p {
+    font-size: 25px;
+  }
+
   .content {
     text-align: center;
     padding: 0;
