@@ -67,7 +67,7 @@ footer {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -90,6 +90,7 @@ footer {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  margin-top: 30px;
 }
 
 .btn-branding-outline {
@@ -104,7 +105,7 @@ footer {
   padding: 120px 30px;
 }
 .content-container {
-  padding: 80px 20px;
+  padding: 60px 20px;
 }
 .content h1 {
   font-size: 55px;
@@ -166,11 +167,11 @@ footer {
     justify-content: center;
     font-size: 14px;
   }
-  .hero {
-    padding: 80px 20px;
-  }
   .hero p {
     font-size: 25px;
+  }
+  .content-container {
+    padding: 20px 20px;
   }
 
   .content {
@@ -178,11 +179,14 @@ footer {
     padding: 0;
   }
   .content h1 {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 1.5;
   }
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .email-link {
+    font-size: 20px;
   }
 }
